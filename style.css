@@ -33,7 +33,7 @@ body{
 .navItem{
   font-weight:bold;
   font-family: sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color:white;
   margin: 10px;
   padding: 8px;
@@ -84,6 +84,7 @@ body{
   border: none;
 }
 .CrossBurger{
+  display: none;
   position: absolute;
   top:21px;
   left: 86%;
@@ -124,6 +125,9 @@ body{
  margin-left: 20px;
 }
 .box-container{
+  display: block;
+}
+.CrossBurger{
   display: block;
 }
 }
